@@ -1,5 +1,11 @@
-﻿<h3>Flash</h3>
+﻿@page "/Flash"
+
+<h3>Flash</h3>
+<input @bind="inputValue" />
 
 @code {
-
-}
+    private string? inputValue; private void tesT()
+    {
+        Console.WriteLine("test");
+    }
+} 
